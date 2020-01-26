@@ -4,6 +4,7 @@ namespace NotificationChannels\Telegram;
 
 use Illuminate\Notifications\Notification;
 use NotificationChannels\Telegram\Exceptions\CouldNotSendNotification;
+use Psr\Http\Message\ResponseInterface;
 
 /**
  * Class TelegramChannel.
